@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GestionNotes.h"
 
-@interface XYZViewController : UIViewController
-
+@interface XYZViewController : UIViewController <GestionNotesDelegate>
+{
+    UIButton *_button;
+    UILabel *_label;
+    UITextField *_textF;
+    
+    GestionNotes *_gestionnaire;
+}
 @end
