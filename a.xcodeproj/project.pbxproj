@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B28D1B7161C5D1500F23040 /* African Daisy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B28D1B6161C5D1500F23040 /* African Daisy.gif */; };
+		9B28D1BC161C60F800F23040 /* PPRevealSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B28D1BB161C60F800F23040 /* PPRevealSideViewController.m */; };
 		9B3E71F1160CA873002BDC4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3E71F0160CA873002BDC4A /* UIKit.framework */; };
 		9B3E71F3160CA873002BDC4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3E71F2160CA873002BDC4A /* Foundation.framework */; };
 		9B3E71F5160CA873002BDC4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3E71F4160CA873002BDC4A /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		9B28D1B6161C5D1500F23040 /* African Daisy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "African Daisy.gif"; sourceTree = "<group>"; };
+		9B28D1BA161C60F800F23040 /* PPRevealSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRevealSideViewController.h; sourceTree = "<group>"; };
+		9B28D1BB161C60F800F23040 /* PPRevealSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRevealSideViewController.m; sourceTree = "<group>"; };
 		9B3E71EC160CA873002BDC4A /* a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3E71F0160CA873002BDC4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9B3E71F2160CA873002BDC4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B28D1B9161C60F800F23040 /* PPRevealSideviewController */ = {
+			isa = PBXGroup;
+			children = (
+				9B28D1BA161C60F800F23040 /* PPRevealSideViewController.h */,
+				9B28D1BB161C60F800F23040 /* PPRevealSideViewController.m */,
+			);
+			name = PPRevealSideviewController;
+			path = PPReveal/PPRevealSideViewController/PPRevealSideviewController;
+			sourceTree = SOURCE_ROOT;
+		};
 		9B3E71E1160CA873002BDC4A = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +103,7 @@
 				9B83CBBB161B0F380053D3C6 /* GestionNotes.m */,
 				9B3E7203160CA873002BDC4A /* XYZViewController.m */,
 				9B3E7205160CA873002BDC4A /* XYZViewController.xib */,
+				9B28D1B9161C60F800F23040 /* PPRevealSideviewController */,
 				9B3E71F7160CA873002BDC4A /* Supporting Files */,
 			);
 			path = a;
@@ -175,6 +189,7 @@
 				9B3E7201160CA873002BDC4A /* XYZAppDelegate.m in Sources */,
 				9B3E7204160CA873002BDC4A /* XYZViewController.m in Sources */,
 				9B83CBBC161B0F380053D3C6 /* GestionNotes.m in Sources */,
+				9B28D1BC161C60F800F23040 /* PPRevealSideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

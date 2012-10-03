@@ -9,15 +9,23 @@
 #import "XYZAppDelegate.h"
 
 #import "XYZViewController.h"
+#import "PPRevealSideViewController.h"
 
 @implementation XYZAppDelegate
+
+@synthesize window=_window;
+@synthesize revealSideViewController = _revealSideViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[XYZViewController alloc] initWithNibName:@"XYZViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    XYZViewController *viewController = [[XYZViewController alloc] initWithNibName:@"XYZViewController" bundle:nil];
+    UINavigationController *nav= [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.revealSideViewController= [[PPRevealSideViewController alloc] initWithRootViewController:nav];
+    self.window.rootViewController = self.revealSideViewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

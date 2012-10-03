@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class PPRevealSideViewController;
+
 
 @class XYZViewController;
 
@@ -14,6 +16,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) XYZViewController *viewController;
+@property (strong, nonatomic) PPRevealSideViewController *revealSideViewController;
 
 @end
