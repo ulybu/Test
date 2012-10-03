@@ -15,6 +15,8 @@
 		9B3E7201160CA873002BDC4A /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E7200160CA873002BDC4A /* XYZAppDelegate.m */; };
 		9B3E7204160CA873002BDC4A /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E7203160CA873002BDC4A /* XYZViewController.m */; };
 		9B3E7207160CA873002BDC4A /* XYZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B3E7205160CA873002BDC4A /* XYZViewController.xib */; };
+		9B83CBBC161B0F380053D3C6 /* GestionNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B83CBBB161B0F380053D3C6 /* GestionNotes.m */; };
+		9B83CD34161B1F3F0053D3C6 /* African Daisy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9B83CD33161B1F3F0053D3C6 /* African Daisy.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		9B3E7202160CA873002BDC4A /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
 		9B3E7203160CA873002BDC4A /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
 		9B3E7206160CA873002BDC4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XYZViewController.xib; sourceTree = "<group>"; };
+		9B83CBBA161B0F380053D3C6 /* GestionNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestionNotes.h; sourceTree = "<group>"; };
+		9B83CBBB161B0F380053D3C6 /* GestionNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestionNotes.m; sourceTree = "<group>"; };
+		9B83CD33161B1F3F0053D3C6 /* African Daisy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "African Daisy.gif"; path = "iChat Icons/Flowers/African Daisy.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +82,12 @@
 		9B3E71F6160CA873002BDC4A /* a */ = {
 			isa = PBXGroup;
 			children = (
+				9B83CD33161B1F3F0053D3C6 /* African Daisy.gif */,
 				9B3E71FF160CA873002BDC4A /* XYZAppDelegate.h */,
 				9B3E7200160CA873002BDC4A /* XYZAppDelegate.m */,
 				9B3E7202160CA873002BDC4A /* XYZViewController.h */,
+				9B83CBBA161B0F380053D3C6 /* GestionNotes.h */,
+				9B83CBBB161B0F380053D3C6 /* GestionNotes.m */,
 				9B3E7203160CA873002BDC4A /* XYZViewController.m */,
 				9B3E7205160CA873002BDC4A /* XYZViewController.xib */,
 				9B3E71F7160CA873002BDC4A /* Supporting Files */,
@@ -152,6 +160,7 @@
 			files = (
 				9B3E71FB160CA873002BDC4A /* InfoPlist.strings in Resources */,
 				9B3E7207160CA873002BDC4A /* XYZViewController.xib in Resources */,
+				9B83CD34161B1F3F0053D3C6 /* African Daisy.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +174,7 @@
 				9B3E71FD160CA873002BDC4A /* main.m in Sources */,
 				9B3E7201160CA873002BDC4A /* XYZAppDelegate.m in Sources */,
 				9B3E7204160CA873002BDC4A /* XYZViewController.m in Sources */,
+				9B83CBBC161B0F380053D3C6 /* GestionNotes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +290,7 @@
 				9B3E720C160CA873002BDC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

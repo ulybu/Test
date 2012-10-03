@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
     UIImageView *imageView= [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"African Daisy.gif"]];
+    imageView.frame = CGRectMake(40.0, 10.0, 320.0 - 80.0, 460.0 - 20.0);
     [self.view addSubview:imageView];
     _label =[[UILabel alloc] initWithFrame:CGRectMake(30, 30, 150, 30)];
     [_label setBackgroundColor: [UIColor clearColor]];
